@@ -1,0 +1,14 @@
+{
+  "markdown-pdf.stylesRelativePathFile": true,
+  "markdown-pdf.styles": [".\\\\style.css"],
+  "markdown-pdf.breaks": true,
+  "markdown-pdf.footerTemplate": "",
+  "markdown-pdf.headerTemplate": "",
+  "markdown-pdf.highlight": false,
+  "markdown-pdf.margin.bottom": "",
+  "markdown-pdf.margin.left": "",
+  "markdown-pdf.margin.right": "",
+  "markdown-pdf.margin.top": "",
+  "markdown-pdf.displayHeaderFooter": false,
+  "markdown-pdf.includeDefaultStyles": false
+}
