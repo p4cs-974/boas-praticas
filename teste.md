@@ -3,11 +3,11 @@
   <img height="40" width="250" src="assets/sie-logo-collection-v2-1-0/Online/PNG/sie-logo-petrol-rgb.png" alt="Logo Siemens">
 </div>
 
-## Resumo sobre git
+# Resumo sobre git
 
 git é um sistema de controle de versão distribuído amplamente utilizado no desenvolvimento de software. Ele permite que vários desenvolvedores trabalhem simultaneamente em um projeto, registrando todas as alterações feitas no código.
 
-### Principais Conceitos
+## Principais Conceitos
 
 - **Repositório**: Local onde o histórico do projeto é armazenado.
 - **Commit**: Registro de uma alteração no repositório.
@@ -15,7 +15,7 @@ git é um sistema de controle de versão distribuído amplamente utilizado no de
 - **Merge**: Combinação de diferentes branches.
 - **Clone**: Cópia de um repositório remoto para sua máquina local.
 
-### Comandos Básicos
+## Comandos Básicos
 
 ```bash
 git init         # Inicializa um novo repositório
@@ -26,10 +26,25 @@ git commit -m "Mensagem"  # Salva as alterações
 git push         # Envia as alterações para o repositório remoto
 ```
 
-### Benefícios
+## Benefícios
 
 - Facilita o trabalho em equipe
 - Mantém o histórico de alterações
 - Permite reverter mudanças indesejadas
 
-Para mais informações, consulte a [documentação oficial do Git](https://git-scm.com/doc).
+<div style="page-break-after: always;"></div>
+
+## Resumo dos Comandos
+
+| Comando | Funcionalidade                                      |
+| ------- | --------------------------------------------------- |
+| init    | Inicializa um novo repositório local                |
+| clone   | Copia um repositório remoto para o computador local |
+| status  | Exibe o estado atual dos arquivos e alterações      |
+| add     | Adiciona arquivos ao índice para o próximo commit   |
+| commit  | Registra as alterações no histórico do repositório  |
+| push    | Envia os commits locais para o repositório remoto   |
+| branch  | Lista, cria ou exclui branches                      |
+| merge   | Une alterações de diferentes branches               |
+
+> Lembre-se que você sempre pode consultar a ajuda do Git com `git help <comando>` para obter mais informações sobre cada comando.

@@ -18,9 +18,13 @@
     font-style: italic;
 }
 
+html, body {
+    min-height: 100vh;
+    height: 100%;
+    background: #F8F8F8;
+}
 /* Estilos Gerais */
 body {
-    background: #F8F8F8;
     font-family: 'SiemensSansPro', Arial, sans-serif;
     margin: 0;
     padding: 1rem 8rem 4rem 8rem;
@@ -28,15 +32,14 @@ body {
     line-height: 1.6;
 }
 
-/* Container principal */
+/* Container principal
 .content-wrapper {
-    background: #FFF;
     border-radius: 15px;
     padding: 3rem 4rem;
     max-width: 1200px;
     margin: 0 auto;
     box-shadow: 0 4px 16px rgba(0,0,0,0.05);
-}
+} */
 
 /* Header */
 .header {
@@ -44,38 +47,93 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     margin-bottom: 2rem;
+    border-bottom: 1px solid #00C1B6;
 }
 
-.git {
-    font-size: 1.8rem;
+.header h1 {
+    font-size: 2.5rem;
     color: #009999;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.siemens {
-    font-size: 1.8rem;
-    color: #009999;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    margin: 0;
 }
 
 /* Títulos */
-h2 {
+h1 {
     color: #009999;
     font-size: 2rem;
-    border-bottom: 1px solid #00C1B6;
-    padding-bottom: 0.5rem;
 }
 
-h3 {
+h2 {
     color: #009999;
     font-size: 1.5rem;
     margin-top: 1.5rem;
+}
+
+/* Parágrafos */
+p {
+    margin: 1rem 0;
+}
+
+/* Blockquotes (comentários markdown) */
+blockquote {
+    border-left: 4px solid #00C1B6;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #555;
+    font-style: italic;
+    background: #F0F0F5;
+}
+
+/* Listas */
+ul, ol {
+    margin: 1rem 0 1rem 2rem;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2rem 0;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #CCC;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #001B29;
+    color: #FFFFFF;
+}
+
+table th:first-child {
+    border-top-left-radius: 8px;
+}
+table th:last-child {
+    border-top-right-radius: 8px;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+/* Linha horizontal */
+hr {
+    border: none;
+    border-top: 1px solid #DDD;
+    margin: 2rem 0;
 }
 
 /* Código */
@@ -90,7 +148,7 @@ pre {
 
 code {
     font-family: 'Consolas', monospace;
-    color: #00FFB9;
+    color: #009999;
 }
 
 /* Responsividade */
@@ -107,10 +165,14 @@ code {
     .content-wrapper {
         padding: 2rem;
     }
-    .header {
-        text-align: center;
-        gap: 1rem;
-    }
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 4rem;
 }
 
 a {
