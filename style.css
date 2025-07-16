@@ -140,14 +140,15 @@ hr {
 pre {
     background: #001B29;
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 0.5rem;
     overflow-x: auto;
     border-left: 4px solid #009999;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 code {
     font-family: 'Consolas', monospace;
+    font-size: small;
     color: #009999;
 }
 
