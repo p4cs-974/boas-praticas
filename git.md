@@ -3,7 +3,7 @@
   <img height="40" width="250" src="assets/sie-logo-collection-v2-1-0/Online/PNG/sie-logo-petrol-rgb.png" alt="Logo Siemens">
 </div>
 
-<!-- # Material de Acompanhamento para Treinamento de Git
+# Material de Acompanhamento para Treinamento de Git
 
 ---
 
@@ -32,7 +32,7 @@
 - [Prós e Contras](#prós-e-contras)
 - [Conclusão](#conclusão)
 
---- -->
+---
 
 ## 📝 Introdução ao Git e sua Importância
 
