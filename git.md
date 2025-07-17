@@ -32,7 +32,7 @@
 - [Prós e Contras](#prós-e-contras)
 - [Conclusão](#conclusão)
 
----
+<div style="page-break-after: always;"></div>
 
 ## 📝 Introdução ao Git e sua Importância
 
